@@ -39,6 +39,16 @@
       p {
         color: white;
       }
+
+      @media (min-width: 600px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        h1 {
+            color: gold;
+        }
+      }
     </style>
   </head>
   <body>
@@ -69,7 +79,7 @@
         <p>Ha spesso un acceso di starnuti.</p>
       </div>
       <div class="grid-item">
-        <h1 style="color:white;">Sono il più giovane!!</h1>
+        <h1 style="color: white">Sono il più giovane!!</h1>
         <h3>Dopey</h3>
         <p>È il più giovane e spesso comporta in modo buffo.</p>
       </div>
